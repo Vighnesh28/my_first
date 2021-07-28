@@ -6,7 +6,7 @@ pipelines:
       vig:
         - step:
            script:
-             - git remote add sync https://github.com/Vighnesh28/my_first.git
+             - git remote add sync https://Vighnesh28:Hanamichi15#@github.com/Vighnesh28/my_first.git
              - git checkout vig
              - git pull    
              - git push sync vig
