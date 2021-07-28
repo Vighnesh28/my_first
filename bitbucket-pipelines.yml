@@ -1,0 +1,14 @@
+
+image: atlassian/default-image:2
+
+pipelines:
+    branches:
+      vig:
+        - step:
+           script:
+             - git remote add sync https://github.com/Vighnesh28/my_first.git
+             - git checkout vig
+             - git pull    
+             - git push sync vig
+   
+ 
